@@ -24,7 +24,7 @@ jobs:
         with:
           application_id: ${{ secrets.APPLICATION_ID }}
           application_private_key: ${{ secrets.APPLICATION_PRIVATE_KEY }}
-          organization: ${{ github.repository_owner }}
+         # organization: ${{ github.repository_owner }}
 
       - name: Checkout
         uses: actions/checkout@v4
